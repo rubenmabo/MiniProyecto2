@@ -1,0 +1,69 @@
+body{
+  background:url(../fotos/fondo.jpg);
+}
+
+@font-face{
+	font-family: monof;
+	src:url(../fuentes/monof55.ttf);
+}
+
+
+#menu{
+    line-height: 35px;
+    width: 55%;
+    clear:both;
+    text-align:center;
+    background-color: rgb(169, 251, 135);
+    border: #444477 solid 2px;
+	position:absolute;
+	line-through:center;
+	margin-left:23%;
+}
+
+#menu a{
+	background-color: rgb(169, 251, 135);
+    letter-spacing: 1px;
+    padding: 5px 20px;
+    font-weight: bold;    
+}
+
+
+#formulario, legend{
+	font-family: monof;
+	font-size: x-large;
+	margin:auto;
+
+}
+
+#normal p{
+	font-size: x-large;
+	font-family: DJB;
+	margin-top:30px;
+	text-align:center;
+}
+
+table{
+	background-color: #C5C5C5;
+}
+
+#formulario a{
+	color:blue;
+}
+
+#formulario a:visited{
+	color:red;
+	outline-color:green;
+}
+
+legend{
+	background-color:rgb(169, 251, 135);
+}
+
+legend::before{
+	content:" $$ "
+}
+
+legend::after{
+	content:" $$ "
+}
+

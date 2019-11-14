@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>FORMULARIO</title>
+    <link rel="stylesheet" type="text/css" href="../css/formulario.css">
+	<link rel="shortcut icon" type="image/png" href="../fotos/icono.JPG"/>
+</head>
+
+<body>
+
+<header id="menu">
+
+		<a href="../index.html">INICIO</a>
+		<a href="aves.html">AVES</a>
+		<a href="mamiferos.html">MAMIFEROS</a>
+		<a href="anfibios.html">ANFIBIOS</a>
+		<a href="reptiles.html">REPTILES</a>
+		<a href="peces.html">PECES</a>
+		<a href="formulario.html">FORMULARIO</a>
+
+</header>
+
+<div id="normal"> 
+<br><br><br><br><br>
+
+<form name="formulario">
+<fieldset>
+<legend>  Formlario para hacer aportaciones: </legend>
+	<table id="formulario">
+		<tr>
+			<td><label>Nombre: </label></td>
+			<td><input type="text"/></td>
+		</tr>
+		<tr>
+			<td><label>Apellidos:</label></td>
+			<td><input type="text"/></td>
+		</tr>
+		<tr>
+			<td><label>Telefono:</label></td>
+			<td><input type="tel"/></td>
+		</tr>
+		<tr>
+			<td><label>Email:</label></td>
+			<td><input type="email" placeholder="@"/></td>
+		</tr>
+		<tr>
+			<td><label>Numero de Cuenta: </label></td>
+			<td><input type="text" name="apellidos" size="40" placeholder="Escribe tu numero de cuenta"></td>
+		</tr>
+		<tr>
+			<td>Sexo:</td>
+			<td>
+				<input type="radio" name="sexo" value="hombre" required> Hombre &nbsp;&nbsp;
+				<input type="radio" name="sexo" value="mujer"> Mujer 
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<td colspan="2" align="center">
+				<input type="textarea" size="40" placeholder="En que causa quieres hacer la aportacion"/>
+			</td>
+		</tr>
+		
+		<tr>
+			<td>Aceptas <a href="#"> terminos y condiciones: <a></td>
+			<td><input type="checkbox" name="terminos" value="terminos" required></td>
+		</tr>
+		
+		
+		
+		<tr>
+			<td colspan="2" align="center">
+				<input type="submit"/>
+			</td>
+		</tr>
+	</table>
+</fieldset>
+</form>
+	
+	
+</div>
+
+<br><br><br>
+    
+</body>
+</html>

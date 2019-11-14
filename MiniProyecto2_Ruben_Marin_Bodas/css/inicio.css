@@ -1,0 +1,201 @@
+body{
+  background:url(../fotos/fondo.jpg);
+}
+
+#titulo{
+	font-family: nature;
+	text-align:center;
+}
+
+@font-face{
+	font-family: nature;
+	src:url(../fuentes/nature.ttf);
+}
+
+@font-face{
+	font-family: rustic;
+	src:url(../fuentes/Indiana-Jonas-48p.otf);
+}
+
+div p{
+	
+  background:url(../fotos/mar.jpg);
+	
+}
+
+#titulo h1:first-of-type{
+	color:red;
+}
+
+
+p{
+	font-size: 50px;
+	font-family: rustic;
+	margin-top:30px;
+	width:30%;
+	margin-left:35%;
+	float:left;
+	text-align:center;
+	color: white;
+}
+
+
+.button{
+  border: none;
+  font-family: rustic;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20pt;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px; 
+  background:url(../fotos/cesped.jpg);
+  width: 30%;
+  margin-left:35%;
+  
+}
+
+
+@media(min-width: 920px){
+
+body{
+  background:url(../fotos/fondo.jpg);
+}
+
+#titulo{
+	font-family: nature;
+	text-align:center;
+}
+
+@font-face{
+	font-family: nature;
+	src:url(../fuentes/nature.ttf);
+}
+
+@font-face{
+	font-family: rustic;
+	src:url(../fuentes/Indiana-Jonas-48p.otf);
+}
+
+div p{
+	
+  background:url(../fotos/mar.jpg);
+	
+}
+
+p{
+	font-size: 50px;
+	font-family: rustic;
+	margin-top:30px;
+	width:30%;
+	margin-left:35%;
+	float:left;
+	text-align:center;
+	color: white;
+}
+
+
+#botones{
+	width:100%;
+	float:left;
+}
+
+#botones > a{
+	float: left;
+	width:40%;
+}
+
+.button{
+  margin-left:52%;
+  width:40%;
+  border: none;
+  font-family: rustic;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12pt;
+  cursor: pointer;
+  border-radius: 10px; 
+  background:url(../fotos/cesped.jpg);
+  float:left;
+  
+}
+
+}
+
+
+
+@media(min-width: 1200px){
+
+body{
+  background:url(../fotos/fondo.jpg);
+}
+
+#titulo{
+	font-family: nature;
+	text-align:center;
+}
+
+@font-face{
+	font-family: nature;
+	src:url(../fuentes/nature.ttf);
+}
+
+@font-face{
+	font-family: rustic;
+	src:url(../fuentes/Indiana-Jonas-48p.otf);
+}
+
+div p{
+	
+  background:url(../fotos/mar.jpg);
+	
+}
+
+p{
+	font-size: 50px;
+	font-family: rustic;
+	margin-top:30px;
+	width:50%;
+	margin-left:25%;
+	float:left;
+	text-align:center;
+	color: white;
+}
+
+
+#botones{
+	width:100%;
+	float:left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#botones > a{
+	margin-left: 15px;
+	padding:0px;
+	float: left;
+	width: 15%;
+	padding-left:0px;
+	padding-right:0px;
+	
+}
+
+.button{
+  width:100%;
+  border: none;
+  font-family: rustic;
+  color: white;
+  text-align: center;
+  font-size: 12pt;
+  cursor: pointer;
+  border-radius: 10px; 
+  background:url(../fotos/cesped.jpg);
+  float:left;
+  
+}
+
+}
