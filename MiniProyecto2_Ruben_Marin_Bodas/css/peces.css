@@ -54,3 +54,9 @@ div{
 	float:right;
 }
 
+div p::first-child{
+	text-transform: uppercase;
+	color: orange;
+	font-size: 24pt;
+}
+

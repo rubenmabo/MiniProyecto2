@@ -54,4 +54,9 @@ div{
 	float:right;
 }
 
+div p::first-line{
+	text-transform: uppercase;
+	color: pink;
+	font-size: 24pt;
+}
 
